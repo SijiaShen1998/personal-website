@@ -1,0 +1,288 @@
+/* Intro sectiom */
+.banner {
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro {
+    height: 600px;
+    background-color: #F8FAFC;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 45px;
+    color: #333333;
+    margin-bottom: 11px;
+    padding-top: 20px;
+}
+
+.intro-text {
+    color: #333333;
+    font-size: 35px;
+    line-height: 50px;
+    width: 400px;
+}
+
+.text-section {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.banner-section {
+   margin-left: 250px;
+   margin-top: 150px;
+}
+
+
+
+/* Value sectiom */
+.values {
+    height: 300px;
+}
+
+h2 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.value-section {
+   margin-left: 200px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 1200px;
+}
+
+.value-img {
+   width: 55px;
+   object-position: center;
+   margin-bottom: 15px;
+   margin-left: 25px;
+}
+
+.divider {
+    height: 5px;
+    width: 100px;
+    background-color: #4E5C72;
+    margin-bottom: 60px;
+}
+
+.heading {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: block;
+}
+
+#create-text {
+    margin-left: 11px;
+}
+
+.value-text {
+   font-weight: 500;
+   font-size: 20px;
+}
+
+/* Experience sectiom */
+.heading {
+    display: block;
+}
+
+.experience-section {
+    height: 600px;
+    background-color: #F8FAFC;
+}
+
+
+
+.exp-container {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+.career-container,
+.education-container {
+    width: 650px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#experience-heading {
+    padding-top: 50px;
+}
+
+.container-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+.thg {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.logo-container {
+    display: inline-block;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.exp-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.exp-title {
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.exp-time {
+    font-weight: 200;
+    font-size: 13px;
+    color: #4E5C72;
+}
+
+.ic,
+.monash,
+.jnu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+#ic-logo {
+    object-fit: contain;
+}
+
+/* Skill sectiom */
+.skill-logo {
+    width: 80px;
+    height: 80px;
+}
+
+#figma-logo {
+    width: 70px;
+    margin-right: 13px;
+}
+
+#html-logo {
+    width: 80px;
+    object-fit: cover;
+}
+
+#css-logo {
+    width: 60px;
+}
+
+#github-logo {
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    margin-left: -5px;
+}
+
+#git-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
+    margin-left: -10px;
+}
+
+.design-skills,
+.programming-skills,
+.data-skills {
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+#design-text {
+    margin-right: 200px;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#programming-text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.skill-section {
+    height: 500px;
+}
+
+#data-text {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 220px;
+}
+
+/* Contact sectiom */
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+    margin-left: 200px;
+
+}
+.contact-icon {
+    width: 50px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+   font-weight: 500;
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8FAFC;
+    height: 500px;
+}
+ 
+#link {
+    padding-left: 15px;
+}
+
+#email {
+    padding-left: 65px;
+}
+
+#phone {
+    padding-left: 40px;
+}
+
+#call-icon {
+    padding-left: 15px;
+}
+
+#email-icon {
+    padding-left: 37px;
+}
